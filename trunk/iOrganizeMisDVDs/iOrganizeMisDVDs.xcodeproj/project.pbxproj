@@ -26,6 +26,7 @@
 		571CAE100F3C236A003C70F9 /* MediaDisc.m in Sources */ = {isa = PBXBuildFile; fileRef = 571CAE0F0F3C236A003C70F9 /* MediaDisc.m */; };
 		572E60680ECA66E100512130 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 572E60670ECA66E100512130 /* AppController.m */; };
 		578C7BAD0F43E82F00DB70CA /* DetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 578C7BAC0F43E82F00DB70CA /* DetailView.m */; };
+		57AAFD400F495BE700A60AE8 /* MovieDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 57AAFD3F0F495BE700A60AE8 /* MovieDetail.m */; };
 		57ACB1390F4400B30070FEE6 /* Media.m in Sources */ = {isa = PBXBuildFile; fileRef = 57ACB1380F4400B30070FEE6 /* Media.m */; };
 		57ACB2A10F4518360070FEE6 /* MediaDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 57ACB2A00F4518360070FEE6 /* MediaDetail.m */; };
 		775BDEF1067A8BF0009058FE /* MyDocument.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 775BDEF0067A8BF0009058FE /* MyDocument.xcdatamodel */; };
@@ -86,7 +87,6 @@
 		514E9DFA081EBF9C009B8CD9 /* Importer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Importer-Info.plist"; path = "Importer/Importer-Info.plist"; sourceTree = "<group>"; };
 		514E9E10081EC6B8009B8CD9 /* GetMetadataForFile.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 30; name = GetMetadataForFile.c; path = Importer/GetMetadataForFile.c; sourceTree = "<group>"; };
 		514E9E11081EC6B8009B8CD9 /* main.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = main.c; path = Importer/main.c; sourceTree = "<group>"; };
-		514E9E16081EC6D5009B8CD9 /* Importer Read Me.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = "Importer Read Me.txt"; path = "Importer/Importer Read Me.txt"; sourceTree = "<group>"; };
 		514E9E2D081EC793009B8CD9 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
 		514EA014081EC7C3009B8CD9 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
 		571CABF60F396F09003C70F9 /* ArrayControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayControllers.h; sourceTree = "<group>"; };
@@ -107,6 +107,8 @@
 		572E60670ECA66E100512130 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
 		578C7BAB0F43E82F00DB70CA /* DetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailView.h; sourceTree = "<group>"; };
 		578C7BAC0F43E82F00DB70CA /* DetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailView.m; sourceTree = "<group>"; };
+		57AAFD3E0F495BE700A60AE8 /* MovieDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieDetail.h; sourceTree = "<group>"; };
+		57AAFD3F0F495BE700A60AE8 /* MovieDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieDetail.m; sourceTree = "<group>"; };
 		57ACB1370F4400B30070FEE6 /* Media.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Media.h; sourceTree = "<group>"; };
 		57ACB1380F4400B30070FEE6 /* Media.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Media.m; sourceTree = "<group>"; };
 		57ACB29F0F4518360070FEE6 /* MediaDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaDetail.h; sourceTree = "<group>"; };
@@ -181,7 +183,6 @@
 				2A37F4B8FDCFA73011CA2CEA /* Resources */,
 				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
 				19C28FB0FE9D524F11CA2CBB /* Products */,
-				514E9E16081EC6D5009B8CD9 /* Importer Read Me.txt */,
 				571CAD8C0F3AE923003C70F9 /* Publish */,
 			);
 			name = iOrganizeMisDVDs;
@@ -259,6 +260,8 @@
 		E1B74B1A0667B4A90069E3BA /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				57AAFD3E0F495BE700A60AE8 /* MovieDetail.h */,
+				57AAFD3F0F495BE700A60AE8 /* MovieDetail.m */,
 				57ACB29F0F4518360070FEE6 /* MediaDetail.h */,
 				57ACB2A00F4518360070FEE6 /* MediaDetail.m */,
 				57ACB1370F4400B30070FEE6 /* Media.h */,
@@ -379,6 +382,7 @@
 				578C7BAD0F43E82F00DB70CA /* DetailView.m in Sources */,
 				57ACB1390F4400B30070FEE6 /* Media.m in Sources */,
 				57ACB2A10F4518360070FEE6 /* MediaDetail.m in Sources */,
+				57AAFD400F495BE700A60AE8 /* MovieDetail.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
