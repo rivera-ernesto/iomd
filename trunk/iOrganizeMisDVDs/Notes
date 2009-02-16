@@ -1,0 +1,5 @@
+Signing:
+
+cd /Users/rivera/iOrganizeMisDVDs
+
+ruby "sign_update.rb" build/Release/iOrganizeMisDVDs.zip dsa_priv.pem
