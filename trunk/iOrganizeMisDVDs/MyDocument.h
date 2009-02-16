@@ -20,6 +20,7 @@
 @property BOOL listingViewVisible, iconsViewVisible;
 
 - (IBAction) newObject:(id)sender;
+
 //- (IBAction) duplicate:(id)sender;
 
 @end

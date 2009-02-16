@@ -98,7 +98,6 @@
 		571CAD6A0F3AE25D003C70F9 /* rss.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = rss.xml; sourceTree = "<group>"; };
 		571CAD970F3AE95D003C70F9 /* sign_update.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = sign_update.rb; sourceTree = "<group>"; };
 		571CAD980F3AE978003C70F9 /* Notes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Notes; sourceTree = "<group>"; };
-		571CAD9D0F3AEA1F003C70F9 /* dsa_priv.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_priv.pem; sourceTree = "<group>"; };
 		571CADFA0F3C183F003C70F9 /* nonimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nonimage.png; sourceTree = "<group>"; };
 		571CAE040F3C20AA003C70F9 /* MovieDisc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieDisc.h; sourceTree = "<group>"; };
 		571CAE050F3C20AA003C70F9 /* MovieDisc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieDisc.m; sourceTree = "<group>"; };
@@ -250,7 +249,6 @@
 		571CAD8C0F3AE923003C70F9 /* Publish */ = {
 			isa = PBXGroup;
 			children = (
-				571CAD9D0F3AEA1F003C70F9 /* dsa_priv.pem */,
 				571CAD970F3AE95D003C70F9 /* sign_update.rb */,
 				571CAD6A0F3AE25D003C70F9 /* rss.xml */,
 				571CAD980F3AE978003C70F9 /* Notes */,
