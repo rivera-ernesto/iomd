@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F7446C30DB6CCE400F9684A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F7446BF0DB6CCE400F9684A /* MainMenu.xib */; };
+		2F7446C40DB6CCE400F9684A /* MyDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F7446C10DB6CCE400F9684A /* MyDocument.xib */; };
+		514E9E12081EC6B8009B8CD9 /* GetMetadataForFile.c in Sources */ = {isa = PBXBuildFile; fileRef = 514E9E10081EC6B8009B8CD9 /* GetMetadataForFile.c */; };
+		514E9E13081EC6B8009B8CD9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 514E9E11081EC6B8009B8CD9 /* main.c */; };
+		514E9E2E081EC793009B8CD9 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 514E9E2D081EC793009B8CD9 /* CoreServices.framework */; };
+		514EA010081EC7AA009B8CD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */; };
+		514EA011081EC7AB009B8CD9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7788DA0506752A1600599AAD /* CoreData.framework */; };
+		514EA015081EC7C3009B8CD9 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 514EA014081EC7C3009B8CD9 /* CoreFoundation.framework */; };
+		514EA082081ECB54009B8CD9 /* iOrganizeMisDVDs.mdimporter in CopyFiles */ = {isa = PBXBuildFile; fileRef = 514E9DF9081EBF9C009B8CD9 /* iOrganizeMisDVDs.mdimporter */; };
+		571CABF80F396F09003C70F9 /* ArrayControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 571CABF70F396F09003C70F9 /* ArrayControllers.m */; };
+		571CAC740F3AC1AC003C70F9 /* IconsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 571CAC730F3AC1AC003C70F9 /* IconsView.m */; };
+		571CACD10F3AD822003C70F9 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571CACD00F3AD822003C70F9 /* Sparkle.framework */; };
+		571CAD0C0F3AD961003C70F9 /* Sparkle.framework in Copy Sparkle */ = {isa = PBXBuildFile; fileRef = 571CACD00F3AD822003C70F9 /* Sparkle.framework */; };
+		571CAD340F3ADC7A003C70F9 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 571CAD330F3ADC7A003C70F9 /* dsa_pub.pem */; };
+		571CADFB0F3C183F003C70F9 /* nonimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 571CADFA0F3C183F003C70F9 /* nonimage.png */; };
+		571CAE060F3C20AA003C70F9 /* MovieDisc.m in Sources */ = {isa = PBXBuildFile; fileRef = 571CAE050F3C20AA003C70F9 /* MovieDisc.m */; };
+		571CAE100F3C236A003C70F9 /* MediaDisc.m in Sources */ = {isa = PBXBuildFile; fileRef = 571CAE0F0F3C236A003C70F9 /* MediaDisc.m */; };
+		572E60680ECA66E100512130 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 572E60670ECA66E100512130 /* AppController.m */; };
+		578C7BAD0F43E82F00DB70CA /* DetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 578C7BAC0F43E82F00DB70CA /* DetailView.m */; };
+		57ACB1390F4400B30070FEE6 /* Media.m in Sources */ = {isa = PBXBuildFile; fileRef = 57ACB1380F4400B30070FEE6 /* Media.m */; };
+		57ACB2A10F4518360070FEE6 /* MediaDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 57ACB2A00F4518360070FEE6 /* MediaDetail.m */; };
+		775BDEF1067A8BF0009058FE /* MyDocument.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 775BDEF0067A8BF0009058FE /* MyDocument.xcdatamodel */; };
+		775DFF38067A968500C5B868 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+		8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
+		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
+		8D15AC310486D014006FF6A4 /* MyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		514EA066081EC8BF009B8CD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 514E9DF8081EBF9C009B8CD9;
+			remoteInfo = "iOrganizeMisDVDs Spotlight Importer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		514EA07C081ECB3F009B8CD9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = ../Library/Spotlight;
+			dstSubfolderSpec = 7;
+			files = (
+				514EA082081ECB54009B8CD9 /* iOrganizeMisDVDs.mdimporter in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571CACE80F3AD839003C70F9 /* Copy Sparkle */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				571CAD0C0F3AD961003C70F9 /* Sparkle.framework in Copy Sparkle */,
+			);
+			name = "Copy Sparkle";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDocument.m; sourceTree = "<group>"; };
+		2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDocument.h; sourceTree = "<group>"; };
+		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		2F7446C00DB6CCE400F9684A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2F7446C20DB6CCE400F9684A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MyDocument.xib; sourceTree = "<group>"; };
+		32DBCF750370BD2300C91783 /* iOrganizeMisDVDs_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOrganizeMisDVDs_Prefix.pch; sourceTree = "<group>"; };
+		514E9DF9081EBF9C009B8CD9 /* iOrganizeMisDVDs.mdimporter */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOrganizeMisDVDs.mdimporter; sourceTree = BUILT_PRODUCTS_DIR; };
+		514E9DFA081EBF9C009B8CD9 /* Importer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Importer-Info.plist"; path = "Importer/Importer-Info.plist"; sourceTree = "<group>"; };
+		514E9E10081EC6B8009B8CD9 /* GetMetadataForFile.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 30; name = GetMetadataForFile.c; path = Importer/GetMetadataForFile.c; sourceTree = "<group>"; };
+		514E9E11081EC6B8009B8CD9 /* main.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = main.c; path = Importer/main.c; sourceTree = "<group>"; };
+		514E9E16081EC6D5009B8CD9 /* Importer Read Me.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = "Importer Read Me.txt"; path = "Importer/Importer Read Me.txt"; sourceTree = "<group>"; };
+		514E9E2D081EC793009B8CD9 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		514EA014081EC7C3009B8CD9 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		571CABF60F396F09003C70F9 /* ArrayControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayControllers.h; sourceTree = "<group>"; };
+		571CABF70F396F09003C70F9 /* ArrayControllers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayControllers.m; sourceTree = "<group>"; };
+		571CAC720F3AC1AC003C70F9 /* IconsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconsView.h; sourceTree = "<group>"; };
+		571CAC730F3AC1AC003C70F9 /* IconsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconsView.m; sourceTree = "<group>"; };
+		571CACD00F3AD822003C70F9 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		571CAD330F3ADC7A003C70F9 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		571CAD6A0F3AE25D003C70F9 /* rss.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = rss.xml; sourceTree = "<group>"; };
+		571CAD970F3AE95D003C70F9 /* sign_update.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = sign_update.rb; sourceTree = "<group>"; };
+		571CAD980F3AE978003C70F9 /* Notes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Notes; sourceTree = "<group>"; };
+		571CAD9D0F3AEA1F003C70F9 /* dsa_priv.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_priv.pem; sourceTree = "<group>"; };
+		571CADFA0F3C183F003C70F9 /* nonimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nonimage.png; sourceTree = "<group>"; };
+		571CAE040F3C20AA003C70F9 /* MovieDisc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieDisc.h; sourceTree = "<group>"; };
+		571CAE050F3C20AA003C70F9 /* MovieDisc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieDisc.m; sourceTree = "<group>"; };
+		571CAE0E0F3C236A003C70F9 /* MediaDisc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaDisc.h; sourceTree = "<group>"; };
+		571CAE0F0F3C236A003C70F9 /* MediaDisc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaDisc.m; sourceTree = "<group>"; };
+		572E60660ECA66E100512130 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		572E60670ECA66E100512130 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		578C7BAB0F43E82F00DB70CA /* DetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailView.h; sourceTree = "<group>"; };
+		578C7BAC0F43E82F00DB70CA /* DetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailView.m; sourceTree = "<group>"; };
+		57ACB1370F4400B30070FEE6 /* Media.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Media.h; sourceTree = "<group>"; };
+		57ACB1380F4400B30070FEE6 /* Media.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Media.m; sourceTree = "<group>"; };
+		57ACB29F0F4518360070FEE6 /* MediaDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaDetail.h; sourceTree = "<group>"; };
+		57ACB2A00F4518360070FEE6 /* MediaDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaDetail.m; sourceTree = "<group>"; };
+		775BDEF0067A8BF0009058FE /* MyDocument.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = MyDocument.xcdatamodel; sourceTree = "<group>"; };
+		7788DA0506752A1600599AAD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		8D15AC360486D014006FF6A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D15AC370486D014006FF6A4 /* iOrganizeMisDVDs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOrganizeMisDVDs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		514E9DF7081EBF9C009B8CD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				514EA015081EC7C3009B8CD9 /* CoreFoundation.framework in Frameworks */,
+				514EA011081EC7AB009B8CD9 /* CoreData.framework in Frameworks */,
+				514EA010081EC7AA009B8CD9 /* Foundation.framework in Frameworks */,
+				514E9E2E081EC793009B8CD9 /* CoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D15AC330486D014006FF6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775DFF38067A968500C5B868 /* Cocoa.framework in Frameworks */,
+				571CACD10F3AD822003C70F9 /* Sparkle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				571CACD00F3AD822003C70F9 /* Sparkle.framework */,
+				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
+				514EA014081EC7C3009B8CD9 /* CoreFoundation.framework */,
+				514E9E2D081EC793009B8CD9 /* CoreServices.framework */,
+				2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */,
+				7788DA0506752A1600599AAD /* CoreData.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A8FEA54F5311CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D15AC370486D014006FF6A4 /* iOrganizeMisDVDs.app */,
+				514E9DF9081EBF9C009B8CD9 /* iOrganizeMisDVDs.mdimporter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* iOrganizeMisDVDs */ = {
+			isa = PBXGroup;
+			children = (
+				514E9E0C081EC698009B8CD9 /* Spotlight */,
+				E1B74B1A0667B4A90069E3BA /* Models */,
+				2A37F4ABFDCFA73011CA2CEA /* Classes */,
+				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
+				2A37F4B8FDCFA73011CA2CEA /* Resources */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+				514E9E16081EC6D5009B8CD9 /* Importer Read Me.txt */,
+				571CAD8C0F3AE923003C70F9 /* Publish */,
+			);
+			name = iOrganizeMisDVDs;
+			sourceTree = "<group>";
+		};
+		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				571CABF60F396F09003C70F9 /* ArrayControllers.h */,
+				571CABF70F396F09003C70F9 /* ArrayControllers.m */,
+				2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */,
+				2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */,
+				572E60660ECA66E100512130 /* AppController.h */,
+				572E60670ECA66E100512130 /* AppController.m */,
+				571CAC720F3AC1AC003C70F9 /* IconsView.h */,
+				571CAC730F3AC1AC003C70F9 /* IconsView.m */,
+				578C7BAB0F43E82F00DB70CA /* DetailView.h */,
+				578C7BAC0F43E82F00DB70CA /* DetailView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF750370BD2300C91783 /* iOrganizeMisDVDs_Prefix.pch */,
+				2A37F4B0FDCFA73011CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				571CADFA0F3C183F003C70F9 /* nonimage.png */,
+				2F7446BF0DB6CCE400F9684A /* MainMenu.xib */,
+				2F7446C10DB6CCE400F9684A /* MyDocument.xib */,
+				2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */,
+				8D15AC360486D014006FF6A4 /* Info.plist */,
+				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
+				514E9DFA081EBF9C009B8CD9 /* Importer-Info.plist */,
+				571CAD330F3ADC7A003C70F9 /* dsa_pub.pem */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
+				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		514E9E0C081EC698009B8CD9 /* Spotlight */ = {
+			isa = PBXGroup;
+			children = (
+				514E9E11081EC6B8009B8CD9 /* main.c */,
+				514E9E10081EC6B8009B8CD9 /* GetMetadataForFile.c */,
+			);
+			name = Spotlight;
+			sourceTree = "<group>";
+		};
+		571CAD8C0F3AE923003C70F9 /* Publish */ = {
+			isa = PBXGroup;
+			children = (
+				571CAD9D0F3AEA1F003C70F9 /* dsa_priv.pem */,
+				571CAD970F3AE95D003C70F9 /* sign_update.rb */,
+				571CAD6A0F3AE25D003C70F9 /* rss.xml */,
+				571CAD980F3AE978003C70F9 /* Notes */,
+			);
+			name = Publish;
+			sourceTree = "<group>";
+		};
+		E1B74B1A0667B4A90069E3BA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				57ACB29F0F4518360070FEE6 /* MediaDetail.h */,
+				57ACB2A00F4518360070FEE6 /* MediaDetail.m */,
+				57ACB1370F4400B30070FEE6 /* Media.h */,
+				57ACB1380F4400B30070FEE6 /* Media.m */,
+				571CAE0E0F3C236A003C70F9 /* MediaDisc.h */,
+				571CAE0F0F3C236A003C70F9 /* MediaDisc.m */,
+				571CAE040F3C20AA003C70F9 /* MovieDisc.h */,
+				571CAE050F3C20AA003C70F9 /* MovieDisc.m */,
+				775BDEF0067A8BF0009058FE /* MyDocument.xcdatamodel */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		514E9DF8081EBF9C009B8CD9 /* iOrganizeMisDVDs Spotlight Importer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FC0AC60875C91100E6366F /* Build configuration list for PBXNativeTarget "iOrganizeMisDVDs Spotlight Importer" */;
+			buildPhases = (
+				514E9DF5081EBF9C009B8CD9 /* Resources */,
+				514E9DF6081EBF9C009B8CD9 /* Sources */,
+				514E9DF7081EBF9C009B8CD9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOrganizeMisDVDs Spotlight Importer";
+			productName = "iOrganizeMisDVDs Spotlight Importer";
+			productReference = 514E9DF9081EBF9C009B8CD9 /* iOrganizeMisDVDs.mdimporter */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8D15AC270486D014006FF6A4 /* iOrganizeMisDVDs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FC0ACA0875C91100E6366F /* Build configuration list for PBXNativeTarget "iOrganizeMisDVDs" */;
+			buildPhases = (
+				8D15AC2B0486D014006FF6A4 /* Resources */,
+				8D15AC300486D014006FF6A4 /* Sources */,
+				8D15AC330486D014006FF6A4 /* Frameworks */,
+				514EA07C081ECB3F009B8CD9 /* CopyFiles */,
+				571CACE80F3AD839003C70F9 /* Copy Sparkle */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				514EA067081EC8BF009B8CD9 /* PBXTargetDependency */,
+			);
+			name = iOrganizeMisDVDs;
+			productInstallPath = "$(HOME)/Applications";
+			productName = iOrganizeMisDVDs;
+			productReference = 8D15AC370486D014006FF6A4 /* iOrganizeMisDVDs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 26FC0ACE0875C91100E6366F /* Build configuration list for PBXProject "iOrganizeMisDVDs" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* iOrganizeMisDVDs */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D15AC270486D014006FF6A4 /* iOrganizeMisDVDs */,
+				514E9DF8081EBF9C009B8CD9 /* iOrganizeMisDVDs Spotlight Importer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		514E9DF5081EBF9C009B8CD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D15AC2B0486D014006FF6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */,
+				8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */,
+				2F7446C30DB6CCE400F9684A /* MainMenu.xib in Resources */,
+				2F7446C40DB6CCE400F9684A /* MyDocument.xib in Resources */,
+				571CAD340F3ADC7A003C70F9 /* dsa_pub.pem in Resources */,
+				571CADFB0F3C183F003C70F9 /* nonimage.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		514E9DF6081EBF9C009B8CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				514E9E12081EC6B8009B8CD9 /* GetMetadataForFile.c in Sources */,
+				514E9E13081EC6B8009B8CD9 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D15AC300486D014006FF6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC310486D014006FF6A4 /* MyDocument.m in Sources */,
+				8D15AC320486D014006FF6A4 /* main.m in Sources */,
+				775BDEF1067A8BF0009058FE /* MyDocument.xcdatamodel in Sources */,
+				572E60680ECA66E100512130 /* AppController.m in Sources */,
+				571CABF80F396F09003C70F9 /* ArrayControllers.m in Sources */,
+				571CAC740F3AC1AC003C70F9 /* IconsView.m in Sources */,
+				571CAE060F3C20AA003C70F9 /* MovieDisc.m in Sources */,
+				571CAE100F3C236A003C70F9 /* MediaDisc.m in Sources */,
+				578C7BAD0F43E82F00DB70CA /* DetailView.m in Sources */,
+				57ACB1390F4400B30070FEE6 /* Media.m in Sources */,
+				57ACB2A10F4518360070FEE6 /* MediaDetail.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		514EA067081EC8BF009B8CD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 514E9DF8081EBF9C009B8CD9 /* iOrganizeMisDVDs Spotlight Importer */;
+			targetProxy = 514EA066081EC8BF009B8CD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C165FFE840EACC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1660FE840EACC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4BAFDCFA73011CA2CEA /* English */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		2F7446BF0DB6CCE400F9684A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F7446C00DB6CCE400F9684A /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		2F7446C10DB6CCE400F9684A /* MyDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F7446C20DB6CCE400F9684A /* English */,
+			);
+			name = MyDocument.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26FC0AC70875C91100E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = "Importer/Importer-Info.plist";
+				INSTALL_PATH = "@executable_path/../Contents/Library/Spotlight";
+				LIBRARY_STYLE = BUNDLE;
+				PRODUCT_NAME = iOrganizeMisDVDs;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = mdimporter;
+			};
+			name = Debug;
+		};
+		26FC0AC80875C91100E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = "Importer/Importer-Info.plist";
+				INSTALL_PATH = "@executable_path/../Contents/Library/Spotlight";
+				LIBRARY_STYLE = BUNDLE;
+				PRODUCT_NAME = iOrganizeMisDVDs;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = mdimporter;
+			};
+			name = Release;
+		};
+		26FC0ACB0875C91100E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iOrganizeMisDVDs_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = iOrganizeMisDVDs;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		26FC0ACC0875C91100E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iOrganizeMisDVDs_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = iOrganizeMisDVDs;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		26FC0ACF0875C91100E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		26FC0AD00875C91100E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26FC0AC60875C91100E6366F /* Build configuration list for PBXNativeTarget "iOrganizeMisDVDs Spotlight Importer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0AC70875C91100E6366F /* Debug */,
+				26FC0AC80875C91100E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26FC0ACA0875C91100E6366F /* Build configuration list for PBXNativeTarget "iOrganizeMisDVDs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0ACB0875C91100E6366F /* Debug */,
+				26FC0ACC0875C91100E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26FC0ACE0875C91100E6366F /* Build configuration list for PBXProject "iOrganizeMisDVDs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0ACF0875C91100E6366F /* Debug */,
+				26FC0AD00875C91100E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}
