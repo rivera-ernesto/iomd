@@ -12,43 +12,40 @@
 
 @implementation MediaDetail 
 
-@dynamic comments;
-@dynamic year;
 @dynamic image;
+@dynamic releaseDate;
 @dynamic rating;
+@dynamic aspectRatio;
 @dynamic certification;
+@dynamic comments;
 @dynamic country;
+@dynamic genre;
+@dynamic language;
+@dynamic otherTitles;
 @dynamic synopsis;
 @dynamic tagLine;
-@dynamic releaseDate;
-@dynamic genre;
 @dynamic title;
-@dynamic aspectRatio;
-@dynamic language;
+@dynamic year;
 @dynamic media;
 @dynamic mediaInfo;
 
 - (NSData *)image
 {
-	NSLog(@"IMAAGE");
-	
 	NSData * data = [self primitiveValueForKey:@"image"];
 	
 	// There's an image?
 	if (data != nil)
 	{
-		NSLog(@"has data");
 		return data;
 	}
 	
 	static NSData * noData;
 	if (noData != nil)
 	{
-		NSLog(@"has default");
 		return noData;
 	}
 	
-	NSLog(@"had no default");
+	NSLog(@"Reading nonimage");
 	NSString* path = [[NSBundle mainBundle]
 					  pathForResource:@"nonimage" ofType:@"png"];
 	noData = [[NSData alloc] initWithContentsOfFile:path];
@@ -57,3 +54,5 @@
 }
 
 @end
+
+
